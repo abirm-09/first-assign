@@ -26,6 +26,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .section-title {
@@ -33,6 +36,10 @@
     font-weight: 700;
     color: #151414;
 
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*============================
@@ -122,4 +129,51 @@ failure section style starts here
 
 /*============================
 failure section style Ends here 
+ =============================*/
+/*============================
+Skills section style starts here 
+ =============================*/
+.skills-section-title {
+    margin-bottom: 50px;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skill-card {
+    padding: 25px;
+    border: 1px solid #0000004d;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.skill-icon {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+}
+
+.skill-icon i {
+    font-size: 60px;
+    color: #16D887;
+}
+
+.skill-title {
+    font-size: 28px;
+    margin-bottom: 0.6rem;
+}
+
+.skill-description span {
+    display: block;
+    color: #444343;
+}
+
+.skill-description span:first-child {
+    margin-bottom: 1rem;
+}
+
+/*============================
+Skills section style Ends here 
  =============================*/
