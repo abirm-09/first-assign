@@ -178,6 +178,10 @@ Skills section style starts here
 /*============================
 Skills section style Ends here 
  =============================*/
+/*============================
+Plans section style starts here 
+ =============================*/
+
 .plans-section-title {
     margin-bottom: 50px;
 }
@@ -206,3 +210,28 @@ Skills section style Ends here
     font-size: 25px;
     color: #737272;
 }
+
+/*============================
+Plans section style Ends here 
+ =============================*/
+/*============================
+Mindset section style Starts here 
+ =============================*/
+.mindset-content {
+    background: url(../asset/images/watch.png), linear-gradient(90deg, rgba(0, 95, 172, 100%), rgb(0, 95, 172, 0%));
+    background-blend-mode: overlay;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 64px;
+}
+
+.mindset-main h2 {
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+/*============================
+Mindset section style Ends here 
+ =============================*/
