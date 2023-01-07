@@ -168,6 +168,7 @@ Skills section style starts here
 .skill-description span {
     display: block;
     color: #444343;
+    font-size: 1rem;
 }
 
 .skill-description span:first-child {
@@ -177,3 +178,31 @@ Skills section style starts here
 /*============================
 Skills section style Ends here 
  =============================*/
+.plans-section-title {
+    margin-bottom: 50px;
+}
+
+.plans-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plans-item {
+    text-align: center;
+}
+
+.plans-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.plans-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plans-sub-title {
+    font-size: 25px;
+    color: #737272;
+}
