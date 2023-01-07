@@ -235,3 +235,67 @@ Mindset section style Starts here
 /*============================
 Mindset section style Ends here 
  =============================*/
+/*============================
+Footer section style Starts here 
+ =============================*/
+.main-footer {
+    background-color: #151414;
+    padding: 130px 20px;
+    color: #fff;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.phone-email {
+    list-style: none;
+}
+
+.phone-email li {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+.footer-left-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.footer-email {
+    padding: 22px;
+    background: none;
+    font-size: 18px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.footer-submit-btn {
+    color: #fff;
+    background: #005FAC;
+}
+
+/*============================
+Footer section style Ends here 
+ =============================*/
